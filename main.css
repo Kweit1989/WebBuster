@@ -1,0 +1,26 @@
+@import url(./css/reset.css);
+@import url(./css/fonts.css);
+
+html,body{
+  overflow-x: hidden;
+}
+body{
+  background-color: #F2F2F4;
+}
+.header{
+  background: url(./img/svg/header/top.svg);
+  padding-top: 18px;
+  height: 500px;
+  color: #fff;
+  font-family: 'FuturaLightC', sans-serif;
+}
+.navigation {
+  padding: 0 15px;
+}
+.navigation-list{
+  
+}
+.navigation-item {
+  display: flex !important;
+  width: max-content !important; 
+}
