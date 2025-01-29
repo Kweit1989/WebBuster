@@ -6,14 +6,11 @@ html,body{
 }
 body{
   background-color: #F2F2F4;
+  height: 3000px;
 }
 .container {
   padding: 0 15px;
 }
-
-
-
-
 
 .header{
   font-size: 14px;
@@ -54,7 +51,7 @@ body{
   height: 10px;
 }
 .header-phone-a > span:last-child{
-  margin-top: 2px;
+  margin-top: auto;
 }
 .navigation {
   margin-top: 20px;
@@ -65,4 +62,9 @@ body{
 .navigation-item {
   display: flex !important;
   width: max-content !important; 
+  
+}
+
+.navigation-list > .navigation-item + .navigation-item {
+  margin-left: 35px;
 }
