@@ -1,0 +1,62 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    overflow-x: hidden;
+    padding: 18px 0;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'FuturaLightC', sans-serif;
+  }
+  .header-logo-phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-logo-link {
+    display: flex;
+    align-items: center;
+  }
+  .header-logo {
+    width: 51.66px;
+    height: 9.33px;
+  }
+  .header-phone{
+  
+  }
+  .header-phone-a {
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+  }
+  .header-phone-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .header-phone-svg {
+    width: 10px;
+    height: 10px;
+  }
+  .header-phone-a > span:last-child{
+    margin-top: auto;
+  }
+  .navigation {
+    margin-top: 20px;
+  }
+  .navigation-list{
+    
+  }
+  .navigation-item {
+    display: flex !important;
+    width: max-content !important; 
+    
+  }
+  .navigation-list > .navigation-item + .navigation-item {
+    margin-left: 35px;
+  }
+  
